@@ -10,3 +10,6 @@ function solution(price) {
     } 
     else return price
 }
+
+// 조건문의 순서를 간과했던 문제였고, if문을 다시 생각하게 만든 문제였다.
+// 조건의 범위가 좁은 순서에서 큰 순서로 적어야하는 것을 잊지말자! Math.floor도 상기했던 문제.
