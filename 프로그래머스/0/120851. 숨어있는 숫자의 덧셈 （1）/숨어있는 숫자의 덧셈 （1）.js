@@ -5,7 +5,7 @@ function solution(my_string) {
  let total = 0;
     
     for (let i = 0; i < num.length; i++) {
-     // num[i]를 Number 함수를 사용하여 숫자로 변환하고, total에 그 값을 더한다.
+     // num[i]를 Number 함수를 사용하여 숫자로 변환하고, 숫자로 변환할 수 있는 문자열이면 total에 그 값을 더한다.
         if (Number(num[i])) total += Number(num[i])
     } 
  // 최종적으로 total 반환
