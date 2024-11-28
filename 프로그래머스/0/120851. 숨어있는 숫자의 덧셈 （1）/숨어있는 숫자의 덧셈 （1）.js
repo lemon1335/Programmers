@@ -11,3 +11,5 @@ function solution(my_string) {
  // 최종적으로 total 반환
  return total
 }
+
+// 까먹었던 split 메소드, Number함수를 찾아보면서 푼 문제였다.
